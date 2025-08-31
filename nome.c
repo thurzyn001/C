@@ -3,7 +3,7 @@
 int main(){
 
     char nome[5][50];
-    char letraProcurada = 'a';
+    char letraProcurada;
 
     for(int i = 0; i <5; i++){
         printf("Digite o %dº nome:\n", i + 1);
@@ -16,7 +16,7 @@ int main(){
 
     printf("Digite a letra a ser buscada:\n");
     scanf(" %c", &letraProcurada);  // Espaço antes de %c para ignorar espaços em branco
-    printf("Letra a ser buscada será: %c\n", letraProcurada);
+    printf("Letra buscada será: %c\n", letraProcurada);
 
     for(int i = 0; i <5; i++){
         for(int j = 0; j <50; j++){
